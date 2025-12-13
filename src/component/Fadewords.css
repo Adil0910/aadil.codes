@@ -1,0 +1,21 @@
+.fade-word-container {
+  display: inline-block; /* container inline rakhne ke liye */
+}
+
+.word {
+  opacity: 0;
+  display: inline-block;
+  transform: translateY(10px) scale(0.98);
+  transition: all 0.5s ease-out;
+}
+
+.word.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.head1 {
+  font-size: 3rem;
+  color: #ff6600;
+  font-weight: bold;
+  text-align: center;
+}

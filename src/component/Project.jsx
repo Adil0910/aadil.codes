@@ -7,42 +7,42 @@ function Project() {
       title: "Blog Website",
       desc: "A modern blog website built using React and Firebase.",
       img: "/img/blog.png",
-      link: "https://your-blog-link.com",
+      link: "http://blog-site-iota-gules.vercel.app",
       tech: ["React", "Redux", "CSS"]
     },
     {
       title: "E-Commerce Website",
       desc: "Fully responsive e-commerce store with cart functionality.",
       img: "/img/ecommerce.png",
-      link: "https://your-ecommerce-link.com",
+      link: "",
       tech: ["React", "Node", "MongoDB"]
     },
     {
       title: "My Kitchen App",
       desc: "Recipe search and cooking guide with API integration.",
       img: "/img/mykitchen.png",
-      link: "https://your-kitchen-app.com",
+      link: "https://my-kitchen-blush.vercel.app/",
       tech: ["React", "API", "Css"]
     },
         {
       title: "Headphone Website",
       desc: "A modern blog website built using React and Firebase.",
       img: "/img/realme.png",
-      link: "https://your-blog-link.com",
+      link: "https://adil0910.github.io/Headphone-site-Clone/",
       tech: ["HTML", "GSAP", "CSS"]
     },
     {
       title: "Hair salon Website",
       desc: "Fully responsive e-commerce store with cart functionality.",
       img: "/img/hair.png",
-      link: "https://your-ecommerce-link.com",
+      link: "https://adil0910.github.io/Hair-Salon-Clone/",
       tech: ["HTML", "CSS", "JAVA SCRIPT"]
     },
     {
       title: "Bar Website",
       desc: "Recipe search and cooking guide with API integration.",
       img: "/img/bar.png",
-      link: "https://your-kitchen-app.com",
+      link: "https://adil0910.github.io/Bar/",
       tech: ["HTML", "CSS" ]
     }
   ];

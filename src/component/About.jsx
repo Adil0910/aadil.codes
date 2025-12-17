@@ -55,7 +55,7 @@ function About() {
             <p><strong>Location:</strong> India</p>
           </div>
 
-          <a href="#" className="about-btn">Download Resume</a>
+          <a href="/img/ADILEHTESHAMCV.pdf" className="about-btn">Download Resume</a>
 
         </div>
       </div>

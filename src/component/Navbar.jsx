@@ -12,6 +12,7 @@ function Navbar() {
       </div>
 
       <nav className={open ? "show" : ""}>
+        <h1 className="Ports">Portfolio</h1>
 
         <div className="navitem">
 

@@ -130,6 +130,14 @@ a{
     padding-left: 22px;
     font-weight: 900;
 }
+.Ports {
+    font-size: 20px;
+    color: blue;
+    letter-spacing: 5px;
+    font-family: 'FontAwesome';
+    padding-left: 22px;
+    font-weight: 900;
+}
 .abborders {
     border-bottom: 4px solid;
 }
@@ -713,7 +721,7 @@ nav a {
     background: white;
     padding: 0px;
     width: 100%;
-    border: 2px solid steelblue;
+    border: 2px solid #0000ff;
     margin-block: 15px;
     border-radius: 0px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -872,5 +880,14 @@ h3.project-header {
     font-size: 20px;
     letter-spacing: 1px;
     margin-block: 28px;
+}
+.Ports {
+    display: none;
+    font-size: 20px;
+    color: blue;
+    letter-spacing: 5px;
+    font-family: 'FontAwesome';
+    padding-left: 22px;
+    font-weight: 900;
 }
 }

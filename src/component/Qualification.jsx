@@ -71,8 +71,8 @@ function Qualification() {
         <div className="training-card">
           <h3>MERN Full Stack Development (6 Months Training)</h3>
           <p className='paraf'><strong>Institute:</strong> @traininginfoseek , Lucknow</p>
-          <p className='paraf'><strong>Technologies:</strong> MongoDB, Express, React, Node</p>
-          <p className='paraf'><strong>Projects:</strong> 10+ Projects </p>
+          <p className='paraf'><strong>Technologies:</strong> Frontend Backend Security & Services</p>
+          <p className='paraf'><strong>Projects:</strong> 18+ Projects </p>
         
         </div>
 </div>

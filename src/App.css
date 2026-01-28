@@ -20,12 +20,11 @@ nav {
     height: 80px;
     gap: 60px;
     width: 100%;
-    position: sticky;
     border-radius: 0px;
     z-index: 1000;
     top: 0px;
     display: flex;
-    background: #ffffff22;
+    background: #ffffff;
     justify-content: space-between;
     align-items: center;
 }
@@ -310,11 +309,10 @@ h2.heading {
 }
 
 .project-img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 15px;
 }
-
 .tech-list {
   display: flex;
   gap: 10px;
@@ -324,20 +322,22 @@ h2.heading {
 }
 
 .tech {
-  padding: 5px 10px;
-  background: #f3f3f3;
-  border-radius: 8px;
-  font-size: 12px;
+    padding: 8px 19px;
+    color: blue;
+    background: transparent;
+    border-radius: 8px;
+    border: 0.4px solid;
+    box-shadow: 0px 0px 3px gray;
+    font-size: 14px;
 }
-
 .project-btn {
-  display: inline-block;
-  padding: 8px 14px;
-  margin-top: 10px;
-  background: black;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
+    display: inline-block;
+    padding: 11px 24px;
+    background: #0000ff;
+    margin-block: 20px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 .section-container {
@@ -379,7 +379,7 @@ h2.heading {
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }
-button.btns {
+.btns {
     padding-block: 10px;
     padding-inline: 17px;
     border: 1.5px solid blue;
@@ -656,16 +656,19 @@ button.btns {
   /* Navbar wrapper */
 
 .hamburger {
-    display: block;
+    display: flex;
     font-size: 28px;
     padding-right: 9px;
+    height: 56px;
     text-align: end;
-    background: white;
+    background: #ffffff57;
     top: 0px;
     color: black;
     cursor: pointer;
     position: sticky;
     z-index: 2000;
+    justify-content: space-between;
+    align-items: center;
 }
 h1.haedimg {
     display: block !important;
@@ -707,9 +710,10 @@ nav a {
     flex-direction: column;
 }
 .project-card {
-    background: #fff;
-    padding: 20px;
+    background: white;
+    padding: 0px;
     width: 100%;
+    border: 2px solid steelblue;
     margin-block: 15px;
     border-radius: 0px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -863,5 +867,10 @@ h1.lastpara {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-
+h3.project-header {
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-block: 28px;
+}
 }

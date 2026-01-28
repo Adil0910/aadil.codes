@@ -36,26 +36,29 @@ function About() {
         {/* CONTENT */}
         <div className="about-content">
           <h2> <span className="abborder">Abo</span>ut Me</h2>
+<p>
+  Hi, I’m <span>Adil Ehtesham</span>, a Full Stack Developer with strong hands-on
+  experience in building scalable, high-performance web applications. I have
+  completed 6 months of intensive professional training and am currently working
+  as a Full Stack Developer Intern.
+</p>
 
-          <p>
-            Hi, I’m <span>Adil Ehtesham</span>, a Full Stack Developer passionate
-            about building beautiful and scalable web applications. I love writing
-            clean code and creating smooth user experiences.
-          </p>
+<p>
+  I specialize in the MERN Stack and have successfully delivered 18+ real-world
+  projects, focusing on clean architecture, optimized performance, and great
+  user experience. I’m highly motivated, quick to learn, and passionate about
+  turning complex ideas into reliable digital products.
+</p>
 
-          <p>
-            I work with MERN Stack and enjoy turning ideas into real world digital
-            products. Learning something new daily is my biggest strength.
-          </p>
 
           <div className="about-details">
             <p><strong>Age:</strong> 22</p>
-            <p><strong>Experience:</strong> Fresher</p>
+            <p><strong>Experience:</strong> 6 Months</p>
             <p><strong>Role:</strong> Full Stack Developer</p>
             <p><strong>Location:</strong> India</p>
           </div>
 
-          <a href="/img/ADILEHTESHAMCV.pdf" className="about-btn">Download Resume</a>
+          <a href="/img/adildev.pdf" className="about-btn">Download Resume</a>
 
         </div>
       </div>
@@ -64,6 +67,7 @@ function About() {
       <h2 className="skills-heading"><span style={{borderBottom:"3px solid",paddingBlock:"7px",}}>Skil</span>ls</h2>
 
       <div className="skills-grid">
+        <div className="skills-cards">
        <div className="skill-card">
           <h2 className=" headdd">Language <i class="fa-solid fa-desktop"></i></h2>
           <p>JAVA SCRIPT</p>
@@ -74,16 +78,36 @@ function About() {
           <p>CSS</p>
           <p>JAVA SCRIPT</p>
           <p>REACT</p>
+          <p>Boots</p>
+          <p>Tans</p>
+
         </div>
         <div className="skill-card">  <h2 className=" headdd">Backend <i class="fa-solid fa-database"></i></h2>
         <p>NODE.JS</p>
         <p>EXPRESS.JS</p>
+        
 
         </div>
         <div className="skill-card"><h2 className=" headdd">DataBase</h2>
         <p>MongoDB</p>
         
         </div>
+         <div className="skill-card"><h2 className=" headdd">Integration & Services</h2>
+        <p className="paraaa">Nodemailer,Brevo (SendinBlue)</p>
+        <p>multer</p>
+        <p>razorpay</p>
+        <p>jwt,bcrypt</p>
+        
+        </div>
+         <div className="skill-card"><h2 className=" headdd">Tool & Platforms</h2>
+       <p>Git</p>
+       <p>GitHub</p>
+       <p>Postman</p>
+       <p>VsCode</p></div>
+
+        
+        </div>
+          
           
       </div>
 

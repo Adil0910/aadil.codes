@@ -74,22 +74,30 @@ function Home() {
                 
                 <span className="abborders">Abo</span>ut Me
               </h2>
+<p className="section-text">
+  Hi, I’m <strong>Aadil Ehtesham</strong>, a motivated <strong>Full Stack Developer </strong>
+   with hands-on 6 Months experience in building scalable and user-centric web applications.
+  I’m currently pursuing <strong>BCA (3rd Semester)</strong> and have completed my
+  <strong> B.A</strong>.
+</p>
 
-              <p className="section-text">
-                Hi, I'm <strong>Aadil Ehtesham</strong>. Currently pursuing
-                <strong> BCA (3rd Semester)</strong> and I have completed my <strong>B.A</strong>.
-              </p>
+<p className="section-text">
+  I have completed <strong>6 months of Full Stack Development training</strong>
+  in the <strong>MERN Stack</strong> and am currently working as a
+  <strong> Full Stack Developer Intern</strong>, where I apply real-world
+  development practices.
+</p>
 
-              <p className="section-text">
-                I’m also doing a <strong>5-month Full Stack Development Training</strong> with the MERN Stack.
-              </p>
+<p className="section-text">
+  With <strong>18+ completed projects</strong>, I bring strong problem-solving
+  skills, clean coding standards, and a continuous learning mindset to every
+  project I work on.
+</p>
 
-              <p className="section-text">
-                I enjoy building modern UIs and learning new technologies to grow as a Full Stack Developer.
-              </p>
 
               <div className="buttonbox">
-                <button className="btns">Download Resume</button>
+                 <a className="btns" href="/img/adildev.pdf">Download Resume</a>
+
               </div>
             </div>
           </div>

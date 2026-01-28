@@ -3,6 +3,28 @@ import Footer from "./Footer";
 
 function Project() {
   const projects = [
+     {
+      title: "Portfolio Generator",
+      desc: "A dynamic portfolio generator that automatically creates a personalized portfolio from user input",
+      img: "/img/portfoliogen.png",
+      link: "https://your-portfolio-iota.vercel.app/",
+      tech: ["Frontend", "Brevo", "Backend"]
+    },
+      {
+      title: "Hospital Management System",
+      desc: "A Hospital Management System with role-based access, doctor approval by admin, and email notifications for seamless hospital operations.",
+      img: "/img/linkedin5.png",
+      link: "https://hms-alpha-neon.vercel.app/",
+      tech: ["Frontend", "Backend", "Nodemailer"]
+    },
+     
+      {
+      title: "Blog ",
+      desc: "Nexo is a full-featured blog application built with complete CRUD functionality, enabling users to manage blog content efficiently.",
+      img: "/img/blogcrud.png",
+      link: "https://blog-site-frontend-pearl.vercel.app/",
+      tech: ["Frontend", "CRUD", "Backend"]
+    },
     {
       title: "Blog Website",
       desc: "A modern blog website built using React and Firebase.",
@@ -57,7 +79,7 @@ function Project() {
           <div className="project-card" key={index}>
             <img src={p.img} alt={p.title} className="project-img" />
 
-            <h3>{p.title}</h3>
+            <h3 className="project-header">{p.title}</h3>
 
             <div className="tech-list">
               {p.tech.map((t, i) => (

@@ -69,7 +69,7 @@ function Qualification() {
         </div>
 <div className='lastq' style={{width:"100%",display:"flex",justifyContent:"center"}}>
         <div className="training-card">
-          <h3>MERN Full Stack Development (6 Months Training)</h3>
+          <h3>Full Stack Development </h3>
           <p className='paraf'><strong>Institute:</strong> @traininginfoseek , Lucknow</p>
           <p className='paraf'><strong>Technologies:</strong> Frontend Backend Security & Services</p>
           <p className='paraf'><strong>Projects:</strong> 18+ Projects </p>

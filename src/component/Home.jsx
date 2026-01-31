@@ -76,17 +76,17 @@ function Home() {
               </h2>
 <p className="section-text">
   Hi, I’m <strong>Aadil Ehtesham</strong>, a motivated <strong>Full Stack Developer </strong>
-   with hands-on 6 Months experience in building scalable and user-centric web applications.
+   with 6 Months experience in building scalable and user-centric web applications.
   I’m currently pursuing <strong>BCA (3rd Semester)</strong> and have completed my
   <strong> B.A</strong>.
 </p>
 
 <p className="section-text">
-  I have completed <strong>6 months of Full Stack Development training</strong>
-  in the <strong>MERN Stack</strong> and am currently working as a
-  <strong> Full Stack Developer Intern</strong>, where I apply real-world
-  development practices.
+  I am a <strong>Full Stack Developer</strong> with hands-on experience in the
+  <strong> MERN Stack</strong>, focused on building scalable and real-world
+  applications using modern development practices.
 </p>
+
 
 <p className="section-text">
   With <strong>18+ completed projects</strong>, I bring strong problem-solving

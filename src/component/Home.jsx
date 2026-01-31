@@ -96,7 +96,7 @@ function Home() {
 
 
               <div className="buttonbox">
-                 <a className="btns" href="/img/adildev.pdf">Download Resume</a>
+                 <a className="btns" href="/img/adilcv.pdf">Download Resume</a>
 
               </div>
             </div>

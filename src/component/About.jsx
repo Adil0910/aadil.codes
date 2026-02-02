@@ -53,7 +53,7 @@ function About() {
 
           <div className="about-details">
             <p><strong>Age:</strong> 22</p>
-            <p><strong>Experience:</strong> 6 Months</p>
+            <p><strong>Experience:</strong> 8 Months</p>
             <p><strong>Role:</strong> Full Stack Developer</p>
             <p><strong>Location:</strong> India</p>
           </div>

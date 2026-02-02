@@ -76,7 +76,7 @@ function Home() {
               </h2>
 <p className="section-text">
   Hi, I’m <strong>Aadil Ehtesham</strong>, a motivated <strong>Full Stack Developer </strong>
-   with 6 Months experience in building scalable and user-centric web applications.
+   with 8 Months experience in building scalable and user-centric web applications.
   I’m currently pursuing <strong>BCA (3rd Semester)</strong> and have completed my
   <strong> B.A</strong>.
 </p>

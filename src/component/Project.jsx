@@ -36,7 +36,7 @@ function Project() {
       title: "E-Commerce Website",
       desc: "Fully responsive e-commerce store with cart functionality.",
       img: "/img/ecommerce.png",
-      link: "",
+      link: "https://github.com/Adil0910",
       tech: ["React", "Node", "MongoDB"]
     },
     {

@@ -40,11 +40,11 @@ function About() {
   Hi, I’m <span>Adil Ehtesham</span>, a Full Stack Developer with strong hands-on
   experience in building scalable, high-performance web applications. I have
   completed 6 months of intensive professional training and am currently working
-  as a Full Stack Developer Intern.
+  as a Full Stack Developer.
 </p>
 
 <p>
-  I specialize in the MERN Stack and have successfully delivered 18+ real-world
+  I specialize in the MERN Stack and have successfully delivered 20+ real-world
   projects, focusing on clean architecture, optimized performance, and great
   user experience. I’m highly motivated, quick to learn, and passionate about
   turning complex ideas into reliable digital products.

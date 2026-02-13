@@ -85,6 +85,7 @@ function About() {
            <div className="skill-card">
           <h2 className=" headdd">App <i class="fa-brands fa-react"></i></h2>
           <p>React-Native (Expo)</p>
+          <p>TypeScript</p>
         </div>
 
         <div className="skill-card">  <h2 className=" headdd">Backend <i class="fa-solid fa-database"></i></h2>

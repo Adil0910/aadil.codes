@@ -39,7 +39,7 @@ function About() {
 <p>
   Hi, I’m <span>Adil Ehtesham</span>, a Full Stack Developer with strong hands-on
   experience in building scalable, high-performance web applications. I have
-  completed 6 months of intensive professional training and am currently working
+  completed intensive professional training and am currently working
   as a Full Stack Developer.
 </p>
 
@@ -53,7 +53,7 @@ function About() {
 
           <div className="about-details">
             <p><strong>Age:</strong> 22</p>
-            <p><strong>Experience:</strong> 8 Months</p>
+            <p><strong>Experience:</strong> 1 Year</p>
             <p><strong>Role:</strong> Full Stack Developer</p>
             <p><strong>Location:</strong> India</p>
           </div>
@@ -78,10 +78,15 @@ function About() {
           <p>CSS</p>
           <p>JAVA SCRIPT</p>
           <p>REACT</p>
-          <p>Boots</p>
-          <p>Tans</p>
+          <p>Bootstrap</p>
+          <p>TanStack</p>
 
         </div>
+           <div className="skill-card">
+          <h2 className=" headdd">App <i class="fa-brands fa-react"></i></h2>
+          <p>React-Native (Expo)</p>
+        </div>
+
         <div className="skill-card">  <h2 className=" headdd">Backend <i class="fa-solid fa-database"></i></h2>
         <p>NODE.JS</p>
         <p>EXPRESS.JS</p>
@@ -90,6 +95,8 @@ function About() {
         </div>
         <div className="skill-card"><h2 className=" headdd">DataBase</h2>
         <p>MongoDB</p>
+        <p>Mongoose</p>
+
         
         </div>
          <div className="skill-card"><h2 className=" headdd">Integration & Services</h2>

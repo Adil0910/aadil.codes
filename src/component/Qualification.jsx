@@ -72,7 +72,7 @@ function Qualification() {
           <h3>Full Stack Development </h3>
           <p className='paraf'><strong>Institute:</strong> @traininginfoseek , Lucknow</p>
           <p className='paraf'><strong>Technologies:</strong> Frontend Backend Security & Services</p>
-          <p className='paraf'><strong>Projects:</strong> 18+ Projects </p>
+          <p className='paraf'><strong>Projects:</strong> 10 Projects </p>
         
         </div>
 </div>

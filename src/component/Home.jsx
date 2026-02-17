@@ -76,7 +76,7 @@ function Home() {
               </h2>
 <p className="section-text">
   Hi, I’m <strong>Aadil Ehtesham</strong>, a motivated <strong>Full Stack Developer </strong>
-   with 1 Year experience in building scalable and user-centric web applications.
+   with 8 months experience in building scalable and user-centric web applications.
   I’m currently pursuing <strong>BCA (3rd Semester)</strong> and have completed my
   <strong> B.A</strong>.
 </p>
@@ -95,7 +95,8 @@ function Home() {
 
 
               <div className="buttonbox">
-                 <a className="btns" href="/img/adilcv.pdf">Download Resume</a>
+                 <a className="btnss" href="/img/adilcv.pdf">Download Resume</a>
+                 <a className="btns" href="/img/Certificate.jpeg">Certificate</a>
 
               </div>
             </div>

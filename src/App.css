@@ -634,7 +634,16 @@ h2.heading {
 .contact-right button:hover {
   opacity: 0.9;
 }
-
+a.btnss {
+    background: blue;
+    color: white;
+    padding-block: 12px;
+    padding-inline: 10px;
+}
+.buttonbox {
+    display: flex;
+    gap: 12px;
+}
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .contact-box {
@@ -662,7 +671,26 @@ h2.heading {
     box-shadow: none;
 }
   /* Navbar wrapper */
-
+.buttonbox {
+  flex-direction: column;
+  gap: 12px;
+}
+a.btnss {
+    background: blue;
+    color: white;
+    padding-block: 12px;
+    width: 50%;
+    padding-inline: 10px;
+}
+.btns {
+    padding-block: 11px;
+    width: 44%;
+    padding-inline: 17px;
+    border: 1.5px solid blue;
+    color: #0000ffd4;
+    background: transparent;
+    font-weight: 600;
+}
 .hamburger {
     display: flex;
     font-size: 28px;

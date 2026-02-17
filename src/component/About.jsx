@@ -53,12 +53,16 @@ function About() {
 
           <div className="about-details">
             <p><strong>Age:</strong> 22</p>
-            <p><strong>Experience:</strong> 1 Year</p>
+            <p><strong>Experience:</strong> 8 months</p>
             <p><strong>Role:</strong> Full Stack Developer</p>
             <p><strong>Location:</strong> India</p>
           </div>
 
-          <a href="/img/adilcv.pdf" className="about-btn">Download Resume</a>
+            <div className="buttonbox">
+                 <a className="btnss" href="/img/adilcv.pdf">Download Resume</a>
+                 <a className="btns" href="/img/Certificate.jpeg">Certificate</a>
+
+              </div>
 
         </div>
       </div>

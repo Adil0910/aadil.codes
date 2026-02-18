@@ -27,7 +27,7 @@
 .about-content h2 {
     font-size: 42px;
     margin-block: 14px;
-    color: #0053ffb0;
+    color: blue;
 }
 .about-content p {
     font-size: 17px;
@@ -39,7 +39,7 @@
 
 .abborder {
   
-    border-bottom: 4px solid  #4f88ff ;
+    border-bottom: 4px solid;
     padding-block: 1px;
 }
 .about-details {
@@ -58,6 +58,7 @@
   transition: 0.2s;
 }
 
+
 .about-btn:hover {
   opacity: 0.8;
   transform: translateY(-3px);
@@ -65,10 +66,10 @@
 
 /* ---------------- SKILLS SECTION ---------------- */
 .skills-heading {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 25px;
-  color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: blue;
 }
 
 .skills-grid {

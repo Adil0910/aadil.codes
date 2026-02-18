@@ -60,7 +60,7 @@ function About() {
 
             <div className="buttonbox">
                  <a className="btnss" href="/img/adilcv.pdf">Download Resume</a>
-                 <a className="btns" href="/img/Certificate.jpeg">Certificate</a>
+                 <a target="blank" className="btns" href="/img/Certificate.jpeg">Certificate</a>
 
               </div>
 

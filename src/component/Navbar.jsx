@@ -6,21 +6,13 @@ function Navbar() {
 
   return (
     <>
-      <div className="hamburger" onClick={() => setOpen(!open)}>
-        <h1 className="Port">Portfolio</h1>
-       <p> ☰ </p>
-      </div>
+    
 
-      <nav className={open ? "show" : ""}>
-        <h1 className="Ports">Portfolio</h1>
+      <nav>
+        <h1 className="Ports">AE</h1>
 
-        <div className="navitem">
 
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/project">Project</Link>
-        <Link to="/qualification">Qualification</Link>
-        <Link to="/contact">Contact</Link></div>
+        
       </nav>
    </>
   );

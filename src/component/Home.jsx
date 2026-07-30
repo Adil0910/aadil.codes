@@ -1,17 +1,13 @@
 import React from "react";
 import Fadewords from "./Fadewords";
 import Footer from "./Footer";
+import projects from "../data/project";
+import skills from "../data/skill";
 function Home() {
   
   return (
     <>
-      <div className="hero">
-
-        <div className="bubble-bg">
-          {Array.from({ length: 100 }).map((_, i) => (
-            <span key={i} className="bubble"></span>
-          ))}
-        </div>
+    {/* 
 
         <div className="box1">
           <div className="items" style={{ width: "79%" }}>
@@ -20,7 +16,96 @@ function Home() {
               <h3 className="headlocation">Deoria , Uttar Pradesh</h3>
             </div>
 
-            <div className="social-row" role="navigation" aria-label="Social links">
+           
+            <Fadewords
+              text="Hi, I’m Adil Ehtesham, a Full Stack Developer passionate about building modern web applications."
+              className="Intro"
+            />
+
+            <div className="buttonbox">
+              <button className="btn">Hire Me</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="box1s">
+          <img className="image" src="img/img1.jpg" />
+        </div> */}
+        <div className="bubble-bg">
+          {Array.from({ length: 100 }).map((_, i) => (
+            <span key={i} className="bubble"></span>
+          ))}
+        </div>
+      <div className="hero">
+<div className="text-hero">DEVELOPER</div>
+
+      <div className="text-img">
+        <img className="text-png" src="img/imgbg.png"/>
+      </div>
+      </div>
+
+      {/* SCROLL CONTENT */}
+      <div className="main-scroll">
+        
+        {/* PAGE 2 */}
+        <section className="page page2">
+          <div className="projects-page">
+      <h2 className="heading-home-wroks">My Works</h2>
+
+      <div className="project-container">
+        {projects.slice(0,3).map((p, index) => (
+          <div className="project-card" key={index}>
+            <img src={p.img} alt={p.title} className="project-img" />
+
+            <h3 className="project-header-new">{p.title}</h3>
+
+            <div className="tech-list">
+              {p.tech.map((t, i) => (
+                <span className="tech" key={i}>{t}</span>
+              ))}
+            </div>
+
+            <a href={p.link} target="_blank" className="project-btn">
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+        </section>
+      </div>
+
+
+
+      <section className="new-about">
+        <div className="bubble-bg">
+          {Array.from({ length: 100 }).map((_, i) => (
+            <span key={i} className="bubble"></span>
+          ))}
+        </div>
+          <div className="box1-abnew">
+            <img className="new-im-about" src="img/imgbg.png"/>
+          </div>
+          <div className="box1-abnew-2">
+            <div>
+              <h1 className="new-heading-ab">ABOUT</h1>
+              <h4 className="new-h3-ab">ME</h4>
+            </div>
+            <div className="blank"></div>
+            <div className="summary">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, veritatis perferendis suscipit blanditiis non natus accusamus consectetur est possimus, sunt doloremque, nihil tenetur quidem alias sint at fuga? Libero, cum?   </p>
+            </div>
+            <div className="education-new">
+              <h1 className="edu-txt">EDUCATION</h1>
+              <h3 className="ab-new-h3">BCA - Persent   - Manipal Univercity Jaipur</h3>
+              <h3 className="ab-new-h3">BA - Passing Year -2024     - Deen Dayal Upadhyay</h3>
+            </div>
+              <div className="skills-new">
+             
+              <div className="cnt-lang">
+                   <div className="contact-new">
+              <h1 className="edu-txt">Contact</h1>
+               <div className="social-row" role="navigation" aria-label="Social links">
               <a href="https://www.instagram.com/adil09__?igsh=aGxhYXBjbWFuYWI5" className="social-btn instagram" target="_blank">
                 <i className="fa-brands fa-instagram"></i>
               </a>
@@ -38,124 +123,48 @@ function Home() {
               </a>
             </div>
 
-            <Fadewords
-              text="Hi, I’m Adil Ehtesham, a Full Stack Developer passionate about building modern web applications."
-              className="Intro"
-            />
-
-            <div className="buttonbox">
-              <button className="btn">Hire Me</button>
+              
+            </div> <div className="language-new">
+              <h1 className="edu-txt">LANGUAGE</h1>
+              <h3 className="ab-new-h3">HINDI -  English</h3>
+            </div>
+                </div>
             </div>
           </div>
-        </div>
 
-        <div className="box1s">
-          <img className="image" src="img/img1.jpg" />
-        </div>
-      </div>
-
-      {/* SCROLL CONTENT */}
-      <div className="main-scroll">
-        
-        {/* PAGE 2 */}
-        <section className="page page2">
-          
-          <div className="section-container">
-
-            {/* LEFT IMAGE */}
-            
-            <div className="image-box">
-              <img src="/img/lulu.jpg" alt="Profile" className="profile-pic" />
-            </div>
-
-            {/* RIGHT TEXT */}
-            <div className="content-box">
-              <h2 className="section-title">
-                
-                <span className="abborders">Abo</span>ut Me
-              </h2>
-<p className="section-text">
-  Hi, I’m <strong>Aadil Ehtesham</strong>, a motivated <strong>Full Stack Developer </strong>
-   with 8 months experience in building scalable and user-centric web applications.
-  I’m currently pursuing <strong>BCA (3rd Semester)</strong> and have completed my
-  <strong> B.A</strong>.
-</p>
-
-<p className="section-text">
-  I am a <strong>Full Stack Developer</strong> with hands-on experience in the
-  <strong> MERN Stack</strong>, focused on building scalable and real-world
-  applications using modern development practices.
-</p>
-
-
-<p className="section-text">
-  With <strong>20+ completed projects</strong>, clean coding standards, and a continuous learning mindset to every
-  project I work on.
-</p>
-
-
-              <div className="buttonbox">
-                 <a className="btnss" href="/img/adilcv.pdf">Download Resume</a>
-                 <a target="blank" className="btns" href="/img/Certificate.jpeg">Certificate</a>
-
-              </div>
-            </div>
-          </div>
         </section>
 
-        {/* PAGE 3 */}
-        <section className="page sticky">
-       <section className="mentor-section">
-  <h2 className="mentor-title">
-    What <span>My Mentors</span> Say
-  </h2>
 
-  <div className="mentor-wrapper">
+<section className="Skills-new">
+  <video
+    className="video1"
+    src="/img/whitebg.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+  />
 
-    {/* Mentor 1 */}
-    <div className="mentor-card">
-      <div className="mentor-image">
-        <img src="/img/samarmam.jpeg" alt="Mentor 1" />
+  <div className="bubbles">
+    {skills.map((skill, index) => (
+      <div
+        key={index}
+        className="bubble"
+        style={{
+          left: `${Math.random() * 90}%`,
+          animationDuration: `${8 + Math.random() * 6}s`,
+          animationDelay: `${Math.random() * 5}s`,
+        }}
+      >
+        <img className="bubble-img" src={skill} alt="" />
       </div>
-
-      <div className="mentor-content">
-        <p>
-          “Adil is a highly dedicated student. He learns concepts quickly 
-          and applies them in real projects with confidence. His growth 
-          in MERN Stack is impressive.”
-        </p>
-        <h3 className="mentor-name">— Samar Malik</h3>
-        <h4 className="mentor-role">Senior MERN Instructor</h4>
-      </div>
-    </div>
-
-    {/* Mentor 2 */}
-    <div className="mentor-card">
-      <div className="mentor-image">
-        <img src="/img/abhisheksir.jpeg" alt="Mentor 2" />
-      </div>
-
-      <div className="mentor-content">
-        <p>
-          “He has strong logic-building skills and a great sense of UI/UX.  
-          Adil’s passion for full stack development will take him far in his career.”
-        </p>
-        <h3 className="mentor-name">— Abhishek Sir</h3>
-        <h4 className="mentor-role">Full Stack Trainer</h4>
-      </div>
-    </div>
-
+    ))}
   </div>
+
+ 
 </section>
 
-        </section>
 
-        {/* PAGE 4 */}
-        <section style={{background:"white"}} className="page sticky">
-          <h1 className="lastpara">“Code with purpose. Build with passion.”</h1>
-          
-        </section>
-      </div>
       <Footer/>
     </>
   );

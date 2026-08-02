@@ -970,10 +970,10 @@ img.new-im-about {
 .video1 {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     object-fit: cover;
-    left: 0rem;
+    left: 0rem !important;
 }
 }
 

@@ -93,7 +93,7 @@ function Home() {
             </div>
             <div className="blank"></div>
             <div className="summary">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, veritatis perferendis suscipit blanditiis non natus accusamus consectetur est possimus, sunt doloremque, nihil tenetur quidem alias sint at fuga? Libero, cum?   </p>
+              <p>Full Stack MERN Developer with 6 months  of professional experience building and shipping production-grade web applications. Worked at Infoseek Software Systems where I delivered real-world features used by live users — from secure JWT authentication flows to Razorpay payment integrations and role-based access control systems.</p>
             </div>
             <div className="education-new">
               <h1 className="edu-txt">EDUCATION</h1>

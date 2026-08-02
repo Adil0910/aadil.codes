@@ -972,7 +972,15 @@ img.text-png {
     font-weight: bolder;
 }
 }
-
+a.Resume-button {
+    padding-block: 0.8rem;
+    border-radius: 5px;
+    padding-inline: 2rem;
+    box-shadow: 0px 4px 13px #80808059;
+    background: #ecba7b;
+    color: white;
+    margin-right: 2rem;
+}
 /* about */
 section.new-about {
     height: auto;

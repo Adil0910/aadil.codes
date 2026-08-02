@@ -12,7 +12,9 @@ function Navbar() {
         <h1 className="Ports">AE</h1>
 
 
-        
+        <a href="img/adilcv.pdf" className="Resume-button" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
       </nav>
    </>
   );

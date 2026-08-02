@@ -731,17 +731,6 @@ h1.haedimg {
     font-size: 28px;
     bottom: 28px;
 }
-  /* Desktop nav ko hide karo */
-  nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background: #000;
-    padding: 20px 0;
-    border-radius: 0;
-    gap: 25px;
-    margin-top: 20px;
-  }
 
   /* Hamburger click par open hoga */
  nav.show {
@@ -926,15 +915,7 @@ h3.project-header {
     letter-spacing: 1px;
     margin-block: 28px;
 }
-.Ports {
-    display: none;
-    font-size: 20px;
-    color: blue;
-    letter-spacing: 5px;
-    font-family: 'FontAwesome';
-    padding-left: 22px;
-    font-weight: 900;
-}
+
 section.new-about {
     height: auto;
     width: 100%;
@@ -953,7 +934,10 @@ section.new-about {
 .box1-abnew-2 {
     height: auto;
     padding: 1rem;
-    width: 90%;
+    width: 90% !important;
+}
+.contact-new {
+    width: 53% !important;
 }
 img.new-im-about {
     position: relative;
@@ -974,6 +958,18 @@ img.new-im-about {
     height: 100%;
     object-fit: cover;
     left: 0rem !important;
+}
+img.text-png {
+    height: 47vh;
+    border-radius: 50%;
+}
+.text-hero {
+    font-size: 46rem;
+    position: absolute;
+    z-index: 1;
+    color: #ecba7b;
+    letter-spacing: 6px;
+    font-weight: bolder;
 }
 }
 
